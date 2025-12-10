@@ -22,6 +22,7 @@ ul {
 }
 
 h1,
+h2,
 p {
 	margin: 0;
 }
@@ -30,4 +31,12 @@ p {
 	max-width: 970px;
 	margin: 0 auto;
 	padding: 0 10px;
+}
+
+.divider {
+	width: min(420px, 50%);
+	height: 1px;
+	background-color: var(--font-black);
+	border: none;
+	margin: 0 auto;
 }
